@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PranavGorka</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <div id="loader">
+            <div id="percent">0%</div>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <div id="content">
+            <section class="hero">
+                <p class="iam">I AM</p>
+                <h1>PRANAV</h1>
+                <p class="role">A JUNIOR <br />WEB DEVELOPER</p>
+                <a href="#" id="exploreBtn">EXPLORE</a>
+            </section>
+            <div id="text">Assignment</div>
+
+            <aside id="sidebar">
+                <div class="logo">PG</div>
+                <div class="info">
+                    <h3 class="name">Pranav Gorka</h3>
+                    <p class="roles">
+                        <span>Web Developer</span><br />
+                        <span>Python Developer</span>
+                    </p>
+
+                    <div class="sidebar-art">
+                        <svg
+                            class="art"
+                            viewBox="0 0 300 120"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <defs>
+                                <linearGradient
+                                    id="glowGrad"
+                                    x1="0"
+                                    y1="0"
+                                    x2="1"
+                                    y2="0"
+                                >
+                                    <stop offset="0%" stop-color="#ffffff" />
+                                    <stop offset="100%" stop-color="#b3d4ff" />
+                                </linearGradient>
+                                <radialGradient
+                                    id="pulse"
+                                    cx="50%"
+                                    cy="50%"
+                                    r="50%"
+                                >
+                                    <stop
+                                        offset="0%"
+                                        stop-color="#ffffff"
+                                        stop-opacity="0.9"
+                                    />
+                                    <stop
+                                        offset="70%"
+                                        stop-color="#b3d4ff"
+                                        stop-opacity="0.35"
+                                    />
+                                    <stop
+                                        offset="100%"
+                                        stop-color="#b3d4ff"
+                                        stop-opacity="0"
+                                    />
+                                </radialGradient>
+                            </defs>
+                            <!-- soft orb -->
+                            <circle
+                                cx="240"
+                                cy="60"
+                                r="54"
+                                fill="url(#pulse)"
+                            />
+                            <!-- flowing lines -->
+                            <path
+                                d="M10 80 C70 40,130 110,190 60 S270 30,290 70"
+                                fill="none"
+                                stroke="url(#glowGrad)"
+                                stroke-width="2.2"
+                                stroke-linecap="round"
+                            />
+                            <path
+                                d="M10 95 C70 55,130 125,190 75 S270 45,290 85"
+                                fill="none"
+                                stroke="rgba(255,255,255,0.16)"
+                                stroke-width="1.4"
+                                stroke-linecap="round"
+                            />
+                            <!-- spark dots -->
+                            <circle
+                                cx="82"
+                                cy="54"
+                                r="3"
+                                fill="url(#glowGrad)"
+                            />
+                            <circle
+                                cx="188"
+                                cy="62"
+                                r="3"
+                                fill="url(#glowGrad)"
+                            />
+                            <circle cx="246" cy="34" r="2.6" fill="#ffffff" />
+                        </svg>
+                    </div>
+                </div>
+
+                <ul class="socials">
+                    <li>
+                        <a href="#" aria-label="Facebook" class="social-btn">
+                            <svg
+                                viewBox="0 0 24 24"
+                                class="icon-svg"
+                                fill="currentColor"
+                            >
+                                <path
+                                    d="M22.675 0H1.325C.593 0 0 .593 0 1.326v21.348C0 23.406.593 24 1.325 24h11.495v-9.294H9.847V11.01h2.973V8.414c0-2.943 1.796-4.551 4.416-4.551 1.255 0 2.337.093 2.652.135v3.07h-1.82c-1.428 0-1.705.679-1.705 1.676v2.266h3.406l-.444 3.696h-2.962V24h5.807C23.406 24 24 23.406 24 22.674V1.326C24 .593 23.406 0 22.675 0z"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Twitter" class="social-btn">
+                            <svg
+                                viewBox="0 0 24 24"
+                                class="icon-svg"
+                                fill="currentColor"
+                            >
+                                <path
+                                    d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.178 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.28 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.42-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="LinkedIn" class="social-btn">
+                            <svg
+                                viewBox="0 0 24 24"
+                                class="icon-svg"
+                                fill="currentColor"
+                            >
+                                <path
+                                    d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5S0 4.881 0 3.5 1.11 1 2.5 1s2.48 1.119 2.48 2.5zM.5 23.5h4V7.5h-4v16zm7.5 0h4v-8.604c0-2.335 3-2.521 3 0V23.5h4v-10.75c0-6.045-7-5.826-7-2.833V7.5h-4v16z"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="GitHub" class="social-btn">
+                            <svg
+                                viewBox="0 0 24 24"
+                                class="icon-svg"
+                                fill="currentColor"
+                            >
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.745.083-.73.083-.73 1.205.084 1.84 1.238 1.84 1.238 1.07 1.834 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605-2.665-.304-5.466-1.332-5.466-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.652.243 2.873.12 3.176.77.84 1.235 1.91 1.235 3.221 0 4.61-2.804 5.624-5.476 5.921.43.37.823 1.102.823 2.222 0 1.604-.015 2.896-.015 3.286 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <button class="cta-btn">LET'S WORK TOGETHER</button>
+            </aside>
+
+            <main class="mainContent">
+                <header class="topbar">
+                    <nav class="nav">
+                        <a href="#home" class="nav-link" data-section="home"
+                            >Home</a
+                        >
+                        <a
+                            href="#portfolio"
+                            class="nav-link"
+                            data-section="portfolio"
+                            >Portfolio</a
+                        >
+                        <a href="#about" class="nav-link" data-section="about"
+                            >About Me</a
+                        >
+                        <a href="#resume" class="nav-link" data-section="resume"
+                            >Resume</a
+                        >
+                        <a
+                            href="#contact"
+                            class="nav-link"
+                            data-section="contact"
+                            >Contact</a
+                        >
+                    </nav>
+                    <a href="#contact" class="talk-btn">
+                        <span class="description">LET'S TALK</span>
+                        <span class="ocean"></span>
+                    </a>
+                </header>
+
+                <section id="home" class="section">
+                    <div class="container">
+                        <div class="home-hero">
+                            <h1 class="home-title reveal">
+                                I’m <span class="accent">Pranav Gorka</span
+                                ><br />
+                                <span class="subtitle"
+                                    >Web Developer & Designer</span
+                                >
+                            </h1>
+
+                            <div class="home-actions">
+                                <a
+                                    href="#portfolio"
+                                    class="btn btn-primary scrollto reveal"
+                                    >My Works</a
+                                >
+                                <a
+                                    href="Pranav_Gorka_CV.pdf"
+                                    class="btn btn-ghost reveal"
+                                    download
+                                    >Download CV</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="portfolio" class="section">
+                    <div class="container">
+                        <div class="glass-card reveal">
+                            <p class="eyebrow">Portfolio</p>
+                            <h2 class="title">
+                                Check out<span> my featured projects!</span>
+                            </h2>
+
+                            <div class="projects-grid">
+                                <div class="project-wrapper reveal">
+                                    <div class="project-card">
+                                        <div class="card-face front">
+                                            <img
+                                                src="images/game.webp"
+                                                alt="Indie game prototype screenshot"
+                                                class="project-img"
+                                            />
+                                        </div>
+                                        <div class="card-face back">
+                                            <h3 class="project-heading">
+                                                Game Prototype
+                                            </h3>
+                                            <p class="project-desc">
+                                                A lightweight browser game
+                                                exploring smooth canvas
+                                                rendering and input
+                                                responsiveness.
+                                            </p>
+                                            <a href="#" class="project-btn"
+                                                >View Build</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-wrapper reveal">
+                                    <div class="project-card">
+                                        <div class="card-face front">
+                                            <img
+                                                src="images/restaurant.webp"
+                                                alt="Modern restaurant website UI"
+                                                class="project-img"
+                                            />
+                                        </div>
+                                        <div class="card-face back">
+                                            <h3 class="project-heading">
+                                                Restaurant Website
+                                            </h3>
+                                            <p class="project-desc">
+                                                Elegant menu browsing with
+                                                optimized images, semantic
+                                                structure and mobile‑first
+                                                layout.
+                                            </p>
+                                            <a href="#" class="project-btn"
+                                                >Explore Site</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-wrapper reveal">
+                                    <div class="project-card">
+                                        <div class="card-face front">
+                                            <img
+                                                src="images/productivity.png"
+                                                alt="Productivity web app interface"
+                                                class="project-img"
+                                            />
+                                        </div>
+                                        <div class="card-face back">
+                                            <h3 class="project-heading">
+                                                Productivity Web App
+                                            </h3>
+                                            <p class="project-desc">
+                                                Task management module with
+                                                modular components, state
+                                                handling and smooth
+                                                micro‑interactions.
+                                            </p>
+                                            <a href="#" class="project-btn"
+                                                >Open App</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-wrapper reveal">
+                                    <div class="project-card">
+                                        <div class="card-face front">
+                                            <img
+                                                src="images/weather.png"
+                                                alt="Weather dashboard preview"
+                                                class="project-img"
+                                            />
+                                        </div>
+                                        <div class="card-face back">
+                                            <h3 class="project-heading">
+                                                Weather Dashboard
+                                            </h3>
+                                            <p class="project-desc">
+                                                Real‑time conditions & forecasts
+                                                with clean data cards and
+                                                adaptive theming.
+                                            </p>
+                                            <a href="#" class="project-btn"
+                                                >View Dashboard</a
+                                            >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="about" class="section">
+                    <div class="container">
+                        <div class="glass-card reveal">
+                            <p class="eyebrow">About Me</p>
+
+                            <h2 class="title">
+                                Turning complex problems <br /><span
+                                    >into simple design</span
+                                >
+                            </h2>
+
+                            <div class="about-stats">
+                                <div class="stat-card">
+                                    <div class="stat-value">40+</div>
+                                    <div class="stat-label">Happy clients</div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-value">2+</div>
+                                    <div class="stat-label">
+                                        Years of experience
+                                    </div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-value">50+</div>
+                                    <div class="stat-label">Projects done</div>
+                                </div>
+                            </div>
+
+                            <div class="about-grid">
+                                <div class="about-bio">
+                                    <p class="muted">
+                                        I love shaping interfaces that feel
+                                        effortless. My focus is on clarity,
+                                        performance, and small details that make
+                                        products calm to use. I’m comfortable
+                                        moving from design to clean, accessible
+                                        code.
+                                    </p>
+
+                                    <div class="about-actions">
+                                        <a href="#" class="btn-soft" download
+                                            >Download CV</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <aside class="about-details">
+                                    <dl class="kv">
+                                        <dt>Name</dt>
+                                        <dd>Pranav Gorka</dd>
+
+                                        <dt>Phone</dt>
+                                        <dd>
+                                            <a href="tel:+11234567890"
+                                                >+1 123-456-7890</a
+                                            >
+                                        </dd>
+
+                                        <dt>Email</dt>
+                                        <dd>
+                                            <a
+                                                href="mailto:pranavgorka@gmail.com"
+                                                >pranavgorka@gmail.com</a
+                                            >
+                                        </dd>
+
+                                        <dt>Location</dt>
+                                        <dd>Mumbai, India</dd>
+                                    </dl>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="resume" class="section">
+                    <div class="container">
+                        <div class="glass-card resume-card reveal">
+                            <p class="eyebrow">Resume</p>
+                            <h2 class="title">
+                                Education and <span>practical experience</span>
+                            </h2>
+                            <p class="muted resume-intro">
+                                A concise view of my background—focused on clear
+                                outcomes, accessible design, and reliable code.
+                            </p>
+
+                            <h3 class="resume-subtitle">My education</h3>
+                            <ul class="timeline">
+                                <li class="timeline-item">
+                                    <div class="t-left">
+                                        <span class="t-years">2018 – 2020</span>
+                                    </div>
+                                    <div class="t-right">
+                                        <h4 class="t-role">
+                                            UI/UX Design Specialization
+                                        </h4>
+                                        <div class="t-org">
+                                            California Institute of the Arts
+                                        </div>
+                                        <p class="t-desc">
+                                            Research, design and prototype
+                                            effective, visually‑driven websites
+                                            and apps.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="timeline-item">
+                                    <div class="t-left">
+                                        <span class="t-years">2015 – 2018</span>
+                                    </div>
+                                    <div class="t-right">
+                                        <h4 class="t-role">
+                                            Drawing Concentration
+                                        </h4>
+                                        <div class="t-org">
+                                            New York Academy of Art
+                                        </div>
+                                        <p class="t-desc">
+                                            Intensive courses covering core
+                                            principles of drawing and
+                                            composition.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <h3 class="resume-subtitle">Experience</h3>
+                            <ul class="timeline">
+                                <li class="timeline-item">
+                                    <div class="t-left">
+                                        <span class="t-years"
+                                            >2023 – Present</span
+                                        >
+                                    </div>
+                                    <div class="t-right">
+                                        <h4 class="t-role">
+                                            Junior Web Designer
+                                        </h4>
+                                        <div class="t-org">Freelance</div>
+                                        <p class="t-desc">
+                                            Built responsive sites, optimized
+                                            performance, and delivered clean UI
+                                            components.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="timeline-item">
+                                    <div class="t-left">
+                                        <span class="t-years">2022 – 2023</span>
+                                    </div>
+                                    <div class="t-right">
+                                        <h4 class="t-role">Front‑End Intern</h4>
+                                        <div class="t-org">XYZ Studio</div>
+                                        <p class="t-desc">
+                                            Assisted with layouts,
+                                            accessibility, and a small component
+                                            library.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <!-- Favourite tools -->
+                            <h3 class="resume-subtitle">My favourite tools</h3>
+                            <ul class="tools-grid">
+                                <li class="tool-card reveal">
+                                    <div class="tool-logo">
+                                        <img
+                                            src="images/tools/photo.png"
+                                            alt="Photoshop logo"
+                                        />
+                                    </div>
+                                    <span class="tool-name">Photoshop</span>
+                                </li>
+                                <li class="tool-card reveal">
+                                    <div class="tool-logo">
+                                        <img
+                                            src="images/tools/figma.png"
+                                            alt="Figma logo"
+                                        />
+                                    </div>
+                                    <span class="tool-name">Figma</span>
+                                </li>
+                                <li class="tool-card reveal">
+                                    <div class="tool-logo">
+                                        <img
+                                            src="images/tools/html.png"
+                                            alt="HTML logo"
+                                        />
+                                    </div>
+                                    <span class="tool-name">HTML 5</span>
+                                </li>
+                                <li class="tool-card reveal">
+                                    <div class="tool-logo">
+                                        <img
+                                            src="images/tools/css-3.svg"
+                                            alt="CSS logo"
+                                        />
+                                    </div>
+                                    <span class="tool-name">CSS</span>
+                                </li>
+                                <li class="tool-card reveal">
+                                    <div class="tool-logo">
+                                        <img
+                                            src="images/tools/js.png"
+                                            alt="JS logo"
+                                        />
+                                    </div>
+                                    <span class="tool-name">JS</span>
+                                </li>
+                                <li class="tool-card reveal">
+                                    <div class="tool-logo">
+                                        <img
+                                            src="images/tools/react.png"
+                                            alt="React logo"
+                                        />
+                                    </div>
+                                    <span class="tool-name">React</span>
+                                </li>
+                                <li class="tool-card reveal">
+                                    <div class="tool-logo">
+                                        <img
+                                            src="images/tools/mongo.png"
+                                            alt="Mongodb logo"
+                                        />
+                                    </div>
+                                    <span class="tool-name">Mongodb</span>
+                                </li>
+                                <li class="tool-card reveal">
+                                    <div class="tool-logo">
+                                        <img
+                                            src="images/tools/tail.png"
+                                            alt="Tailwind CSS logo"
+                                        />
+                                    </div>
+                                    <span class="tool-name">Tailwind CSS</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" class="section">
+                    <div class="container">
+                        <div class="glass-card contact-card reveal">
+                            <p class="eyebrow">Contact</p>
+                            <h2 class="title">
+                                Let's make something<br />
+                                <span class="accent">awesome together!</span>
+                            </h2>
+
+                            <form
+                                id="contactForm"
+                                class="contact-form"
+                                autocomplete="on"
+                                novalidate
+                            >
+                                <div class="grid">
+                                    <div class="field">
+                                        <input
+                                            id="name"
+                                            name="name"
+                                            type="text"
+                                            placeholder="Your Name*"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="field">
+                                        <input
+                                            id="company"
+                                            name="company"
+                                            type="text"
+                                            placeholder="Company Name"
+                                        />
+                                    </div>
+
+                                    <div class="field">
+                                        <input
+                                            id="email"
+                                            name="email"
+                                            type="email"
+                                            placeholder="Email Address*"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="field">
+                                        <input
+                                            id="phone"
+                                            name="phone"
+                                            type="tel"
+                                            placeholder="Phone Number*"
+                                            required
+                                        />
+                                    </div>
+
+                                    <div class="field span-2">
+                                        <textarea
+                                            id="message"
+                                            name="message"
+                                            rows="5"
+                                            placeholder="A Few Words*"
+                                            required
+                                        ></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="actions">
+                                    <button
+                                        type="submit"
+                                        class="btn btn-primary btn-send"
+                                    >
+                                        <span>Send Message</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
