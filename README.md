@@ -1,7 +1,7 @@
 # PranavStudio
 
-🔗 **Live Site:** https://www.pranavstudio.tech
-🔗 **Alternative Link:** https://pranavstudioo.netlify.app
+*🔗 **Live Site:** https://pranavstudio.tech
+*🔗 **Alternative Link:** https://pranavstudioo.netlify.app
 
 A modern, creative, and performance‑focused platform built to showcase digital projects, blogs, and innovative tools. This repository contains the source code for **PranavStudio.tech**, including its frontend and deployment configuration.
 
