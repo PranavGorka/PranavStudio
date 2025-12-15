@@ -88,4 +88,40 @@ document.addEventListener("DOMContentLoaded", function () {
         { root: mainContent, threshold: 0.2 }
     );
     revealItems.forEach((el) => revealObserver.observe(el));
+
+    const contactForm = document.getElementById("contactForm");
+
+    contactForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const formData = new FormData(contactForm);
+
+        fetch("server.php", {
+            method: "POST",
+            body: formData,
+        })
+            .then((res) => res.json())
+            .then((data) => {
+                showPopup(data.status, data.message);
+
+                if (data.status === "success") {
+                    contactForm.reset();
+                }
+            })
+            .catch(() => {
+                showPopup("error", "Something went wrong. Please try again.");
+            });
+    });
 });
+
+function showPopup(type, message) {
+    const popup = document.getElementById("popup");
+    const msg = document.getElementById("popupMessage");
+
+    msg.textContent = message;
+    popup.classList.add("show");
+}
+
+function closePopup() {
+    document.getElementById("popup").classList.remove("show");
+}
