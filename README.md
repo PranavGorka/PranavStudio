@@ -88,7 +88,7 @@ PranavStudio/
 ├── script.js
 ├── server.php
 ├── images/
-│   └── assets
+│   └── tools
 └── README.md
 ```
 
